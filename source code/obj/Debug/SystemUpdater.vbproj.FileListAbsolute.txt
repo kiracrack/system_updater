@@ -1,0 +1,37 @@
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Data.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Deployment.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Drawing.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Windows.Forms.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Xml.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Xml.Linq.dll
+D:\My.Net\System Core\System Updater\source code\bin\Debug\System.Xml.Linq.xml
+D:\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.vbproj.GenerateResource.Cache
+D:\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.exe.config
+D:\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.exe
+D:\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.pdb
+D:\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.xml
+D:\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.SystemUpdater.resources
+D:\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.Resources.resources
+D:\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.exe
+D:\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.xml
+D:\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.pdb
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.exe.config
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.exe
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.xml
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.pdb
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.exe
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.pdb
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\SystemUpdater.xml
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Data.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Deployment.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Drawing.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Windows.Forms.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Xml.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Xml.Linq.dll
+C:\My Files\My.Net\System Core\System Updater\source code\bin\Debug\System.Xml.Linq.xml
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.SystemUpdater.resources
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.Resources.resources
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.vbproj.GenerateResource.Cache
+C:\My Files\My.Net\System Core\System Updater\source code\obj\Debug\SystemUpdater.vbprojResolveAssemblyReference.cache

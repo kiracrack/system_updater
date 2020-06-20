@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24C1C454-A413-4F9B-8B01-C94B3BEA7C1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SystemUpdater.My.MyApplication</StartupObject>
+    <RootNamespace>SystemUpdater</RootNamespace>
+    <AssemblyName>SystemUpdater</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SystemUpdater.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SystemUpdater.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ipm.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Module\AutoUpdater.vb" />
+    <Compile Include="Module\Encryption.vb" />
+    <Compile Include="SystemUpdater.Designer.vb">
+      <DependentUpon>SystemUpdater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemUpdater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SystemUpdater.resx">
+      <DependentUpon>SystemUpdater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time Hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock--exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\065.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook--pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-excel-table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueprint--arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-document-export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation-red-frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user--plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer--pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer--plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terminal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terminal-network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer--arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building--arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building--plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building--plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building--pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building--exclamation.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\arrow-continue-090-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user--exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\safe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Program Group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user--arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blog--minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator--minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook--minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook--backarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\063.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer--arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer--minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ipm.ico" />
+    <None Include="Resources\terminal--minus.png" />
+    <None Include="Resources\terminal--plus.png" />
+    <None Include="Resources\terminal--arrow.png" />
+    <None Include="Resources\report1.png" />
+    <None Include="Resources\terminal--exclamation.png" />
+    <None Include="Resources\terminal--pencil.png" />
+    <None Include="Resources\globe--arrow.png" />
+    <None Include="Resources\globe--exclamation.png" />
+    <None Include="Resources\globe--pencil.png" />
+    <None Include="Resources\globe--plus.png" />
+    <None Include="Resources\building-network.png" />
+    <None Include="Resources\servers-network.png" />
+    <None Include="Resources\notebook--arrow.png" />
+    <None Include="Resources\newspaper.png" />
+    <None Include="Resources\notebooks.png" />
+    <None Include="Resources\search %284%29.png" />
+    <None Include="Resources\Network Service.png" />
+    <None Include="Resources\building--arrow1.png" />
+    <None Include="Resources\building--minus.png" />
+    <None Include="Resources\office-building.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

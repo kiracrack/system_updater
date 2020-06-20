@@ -1,0 +1,29 @@
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\IPM Tool.exe.config
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\IPM Tool.exe
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\IPM Tool.pdb
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\IPM Tool.xml
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Data.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Deployment.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Drawing.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Windows.Forms.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Xml.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Xml.Linq.dll
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmConnectionSetup.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmNewReport.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.IPMTool.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmReportTransaction.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.Resources.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPM Tool.vbproj.GenerateResource.Cache
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPM Tool.exe
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPM Tool.xml
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPM Tool.pdb
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\bin\Debug\System.Xml.Linq.xml
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmConnectionType.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmConnectionArea.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmConnectionInfo.resources
+D:\My.Net\System Core\IPM Tool\IPM Tool\source code\obj\Debug\IPMTool.frmLoginAccount.resources
+D:\My.Net\System Core\System Updater\source code\bin\Debug\IPM Tool.exe.config
+D:\My.Net\System Core\System Updater\source code\obj\Debug\IPM Tool.exe
+D:\My.Net\System Core\System Updater\source code\obj\Debug\IPM Tool.xml
+D:\My.Net\System Core\System Updater\source code\obj\Debug\IPM Tool.pdb
